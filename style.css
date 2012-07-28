@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+  body {
+    text-align: center;
+  }
+    input {
+      margin: 1% 0%;
+      padding: 0.3% 1%;
+      width: 200px;
+      height: 20px;
+
+      font-size: 12pt;
+      border: 1px solid #eee;
+    }
+      input:focus, input:hover {
+        border: 1px solid #f00;
+        outline: none;
+      }
+
+    li {
+      display: inline-block;
+      margin: 0.5% 0% 0% 0.5%;
+
+      list-style: none;
+    }
+      .show {
+        display: inline-block;
+      }
+      .hide {
+        display: none;
+      }
+
+      a {
+        text-decoration: none;
+      }
+        img {
+          width: 150px; /* 150 / 93 ≈ φ */
+          height: 93px;
+
+          border: 1px solid #eee;
+        }
+          img:hover {
+            border: 1px solid #f00;
+          }
