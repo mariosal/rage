@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset='UTF-8' />
-    <title>Rage Faces</title>
+    <title>Rage</title>
     <meta name='description' content='Web collection of rage faces' />
 
     <link href='style.css' rel='stylesheet' type='text/css' />
