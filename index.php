@@ -27,9 +27,7 @@
           $alt = ucfirst( str_replace( '_', ' ', $exploded[ 0 ] ) );
       ?>
       <li>
-        <a href='faces/<?= $img ?>'>
-          <img src='faces/<?= $img ?>' alt='<?= $alt ?>' />
-        </a>
+        <img src='faces/<?= $img ?>' alt='<?= $alt ?>' />
       </li>
       <?php
         }
