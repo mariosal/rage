@@ -23,7 +23,7 @@ window.onload = function () {
   for ( var i = 0; lists[ i ]; ++i ) {
     var img = lists[ i ].getElementsByTagName( 'img' )[ 0 ];
     img.onclick = function () {
-        window.prompt( 'Share this meme:', this.src );
+      window.prompt( 'Share this meme:', this.src );
     };
   }
 };
