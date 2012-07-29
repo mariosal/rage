@@ -16,3 +16,14 @@ document.getElementsByTagName( 'input' )[ 0 ].onkeyup = function ( e ) {
     }
   }
 };
+
+window.onload = function () {
+  lists = document.getElementsByTagName( 'li' );
+
+  for ( var i = 0; lists[ i ]; ++i ) {
+    var img = lists[ i ].getElementsByTagName( 'img' )[ 0 ];
+    img.onclick = function () {
+        window.prompt( 'Share this meme:', this.src );
+    };
+  }
+};
