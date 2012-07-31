@@ -12,11 +12,13 @@
   </head>
 
   <body>
-    <form>
-      <div>
-        <input type='text' placeholder='Search' autofocus='autofocus' />
-      </div>
-    </form>
+    <header>
+      <form>
+        <div>
+          <input type='text' placeholder='Type to search' autofocus='autofocus' />
+        </div>
+      </form>
+    </header>
 
     <ul>
       <?php
@@ -30,12 +32,19 @@
           $alt = ucfirst( str_replace( '_', ' ', $exploded[ 0 ] ) );
       ?>
       <li>
+        <h2><?= ucwords( $alt ) ?></h2>
         <img src='faces/<?= $img ?>' alt='<?= $alt ?>' />
       </li>
       <?php
         }
       ?>
     </ul>
+
+    <div class='overlay'></div>
+    <div class='fruitless'>
+      <p>We can't find any memes with that name.</p>
+      <p>Try <a href=''>searching memebase for '<span id='q'>term</span>'</a>.</p>
+    </div>
 
     <div class='modalcontainer'>
         <div class='modal'>
@@ -52,5 +61,6 @@
     <script src='js/jquery-1.7.2.min.js'></script>
     <script src='js/modal.js'></script>
     <script src='js/search.js'></script>
+    <script src='js/ui.js'></script>
   </body>
 </html>
