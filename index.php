@@ -6,6 +6,8 @@
     <meta name='description' content='Web collection of rage faces' />
 
     <link href='style.css' rel='stylesheet' type='text/css' />
+
+    <link rel="icon" type="image/jpeg" href="favicon.jpg" />
   </head>
 
   <body>
@@ -25,6 +27,8 @@
 
           $exploded = explode( '.', $img, 2 );
           $alt = ucfirst( str_replace( '_', ' ', $exploded[ 0 ] ) );
+
+          // imagecreatefromstring( file
       ?>
       <li>
         <img src='faces/<?= $img ?>' alt='<?= $alt ?>' />
