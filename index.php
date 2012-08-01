@@ -8,7 +8,7 @@
     <link href='css/style.css' rel='stylesheet' type='text/css' />
     <link href='css/modal.css' rel='stylesheet' type='text/css' />
 
-    <link rel='icon' type='image/jpeg' href='favicon.jpg' />
+    <link href='favicon.jpg' rel='icon' type='image/jpeg' />
   </head>
 
   <body>
