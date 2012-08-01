@@ -8,7 +8,7 @@
     <link href='css/style.css' rel='stylesheet' type='text/css' />
     <link href='css/modal.css' rel='stylesheet' type='text/css' />
 
-    <link rel="icon" type="image/jpeg" href="favicon.jpg" />
+    <link rel='icon' type='image/jpeg' href='favicon.jpg' />
   </head>
 
   <body>
@@ -47,15 +47,15 @@
     </div>
 
     <div class='modalcontainer'>
-        <div class='modal'>
-            <h2>Cereal guy</h2>
+      <div class='modal'>
+        <h2>Cereal guy</h2>
 
-            <img src='faces/cereal_guy.svg' alt='Cereal guy' />
+        <img src='faces/cereal_guy.svg' alt='Cereal guy' />
 
-            Share this meme:
+        Share this meme:
 
-            <input type='text' value='url' />
-        </div>
+        <input type='text' value='url' />
+      </div>
     </div>
 
     <script src='js/jquery-1.7.2.min.js'></script>
